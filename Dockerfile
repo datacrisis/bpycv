@@ -1,6 +1,7 @@
 # git clone https://github.com/DIYer22/bpycv && cd bpycv && docker build --network=host -t diyer22/bpycv ./ && docker run -v /tmp:/tmp -it diyer22/bpycv
 
-FROM nytimes/blender:3.2-gpu-ubuntu18.04
+#FROM nytimes/blender:3.2-gpu-ubuntu18.04
+FROM lsiodev/blender:version-3.4.1
 
 LABEL Author="Lei Yang <DIYer22@GitHub>"
 LABEL Title="bpycv in Docker"
